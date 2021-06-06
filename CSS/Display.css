@@ -1,0 +1,32 @@
+.artikel {
+    background-color: blanchedalmond;
+}
+
+/* Lebar elemen inline display sebesar ukuran kontennya; dan tidak bisa diubah kecuali pada elemen gambar */
+a {
+    background-color: seagreen;
+    font-weight: bold;
+    /* Untuk mengatur tinggi dan lebar pada inline display, kita bisa menambahkan "inline-block" */
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+img {
+    width: 650px;
+    height: 250px;
+}
+
+p {
+    background-color: cadetblue;
+    width: 600px;
+}
+
+.daftar-isi-judul {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.daftar-isi li {
+    display: inline;
+}
