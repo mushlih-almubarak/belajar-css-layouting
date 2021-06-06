@@ -3,6 +3,11 @@
 }
 
 /* Lebar elemen inline display sebesar ukuran kontennya; dan tidak bisa diubah kecuali pada elemen gambar */
+img {
+    width: 650px;
+    height: 250px;
+}
+
 a {
     background-color: seagreen;
     font-weight: bold;
@@ -10,11 +15,6 @@ a {
     width: 200px;
     height: 200px;
     display: inline-block;
-}
-
-img {
-    width: 650px;
-    height: 250px;
 }
 
 p {
