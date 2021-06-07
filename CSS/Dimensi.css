@@ -1,0 +1,22 @@
+/* Dimensi pada CSS ada 2, yaitu width (lebar) dan height (Tinggi) */
+.a {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.b {
+    width: 500px;
+    height: 500px;
+    border: solid blue;
+}
+
+/* Jika menggunakan persen, maka ia akan menyesuaikan ukurannya dengan parentnya */
+.c {
+    width: 90%; /* 90% dari ukuran di selector parentnya (class b) */ 
+    height: 100%; /* 100% dari ukuran di selector parentnya (class b) */
+    background-color: orange;
+    /*Reset margin dan padding default */
+    margin: 0;
+    padding: 0;
+}
