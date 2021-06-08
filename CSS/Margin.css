@@ -1,0 +1,42 @@
+#satu {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: 60px;
+    margin-right: 70px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+#dua {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* Ini tidak akan berfungsi dan akan terjadi "overlapping margin". karena sudah ada margin-bottom pada elemen diatasnya, jadi margin pada elemennya (margin-bottom dan margin-top) bukan ditambahkan, tapi akan diambil yang valuenya lebih besar (Aturan ini hanya berlaku jika elemennya vertikal) */
+    margin-top: 20px;
+}
+
+#tiga {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /* Memberikan margin 50px pada semua sisi */
+    margin: 50px;
+}
+
+#empat {
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    /* "auto" akan membuat ukurannya setengah-setengah dari parrentnya */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lima {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 30px 40px 50px 60px;
+    /* Ini namanya CSS shorthand, ia akan memberikan margin sesuai valuenya (hitungnya searah jarum jam) */
+}
