@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tentang Box Sizing di CSS</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: greenyellow;
+            margin: 100px auto;
+            padding: 50px;
+            border: 5px dotted blue;
+            /* Agar ukuran kotaknya tidak berubah karena ditambahkan oleh ukuran padding dan border, maka gunakan properti di bawah ini */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi fugiat eos, placeat, non distinctio incidunt
+        veniam omnis consectetur ullam excepturi impedit voluptas magni perferendis nulla recusandae temporibus. Nihil,
+        voluptate dolorum!</div>
+</body>
+
+</html>
