@@ -1,0 +1,35 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 5px solid aqua;
+    margin: auto;
+}
+
+/*Float bisa digunakan utk membuat multi-layout pada halaman */
+#kiri {
+    width: 200px;
+    height: 500px;
+    background-color: orange;
+    float: left;
+}
+
+#tengah {
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    float: left;
+}
+
+#kanan {
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
+
+/* Membuat teks mengelilingi gambar */
+img {
+    width: 100px;
+    right: 100px;
+    float: left;
+}
