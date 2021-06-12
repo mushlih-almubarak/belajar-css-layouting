@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#satu {
+    background-color: aqua;
+}
+
+#dua {
+    background-color: red;
+    /* Absolute adalah posisi yang patokannya adalah parrent terdekatnya yang positionnya adalah non-static, dan patokannya bukan tempat asli elemennya */
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+#tiga {
+    background-color: seagreen;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 5px solid blue;
+    position: relative; /* Agar kotak #dua tidak keluar dari .container, kita harus jadikan posisi containernya menjadi non static, karena posisi default semua element adalah static */ 
+    margin: auto;
+}
