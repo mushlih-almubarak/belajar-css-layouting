@@ -1,0 +1,32 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+
+#satu {
+    background-color: aqua;
+}
+
+#dua {
+    background-color: greenyellow;
+    width: 100%;
+    height: 50px;
+    position: fixed; /* Posisi fixed patokannya adalah body/window, dan bukan elemen parrentnya meskipun ia non static */
+    top: 0;
+    left: 0;
+}
+
+#tiga {
+    background-color: red;
+}
+
+body {
+    height: 2000px; /* Agar halamannya bisa discroll */
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    margin: 100px auto;
+}
