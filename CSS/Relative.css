@@ -1,0 +1,20 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+
+#satu {
+    background-color: aqua;
+}
+
+#dua {
+    background-color: greenyellow;
+    /* Agar elemen disekitarnya (#tiga dan #satu) tidak terpengaruh karena elemen #dua bergeser, gunakan properti di bawah ini */
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+#tiga {
+    background-color: red;
+}
